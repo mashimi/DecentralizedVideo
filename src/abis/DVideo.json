@@ -2751,6 +2751,44 @@
     "version": "0.5.12+commit.7709ece9.Emscripten.clang"
   },
   "networks": {
+    "4": {
+      "events": {
+        "0x2c44b862f4b4e08a26a765f9499900759a9ec95360a6f174d53163bd5d367f67": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "uint256",
+              "name": "id",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "internalType": "string",
+              "name": "hash",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "internalType": "string",
+              "name": "title",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "internalType": "address",
+              "name": "author",
+              "type": "address"
+            }
+          ],
+          "name": "VideoUploaded",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0xD5d2773BB7bD62416d229eB14C5A193b3992E004",
+      "transactionHash": "0xae91fc118fba79aed5492895bcf8c9e619d5c9e470883bd8646ec76b0d7da1e0"
+    },
     "5777": {
       "events": {
         "0x2c44b862f4b4e08a26a765f9499900759a9ec95360a6f174d53163bd5d367f67": {
@@ -2782,8 +2820,7 @@
             }
           ],
           "name": "VideoUploaded",
-          "type": "event",
-          "signature": "0x2c44b862f4b4e08a26a765f9499900759a9ec95360a6f174d53163bd5d367f67"
+          "type": "event"
         }
       },
       "links": {},
@@ -2943,8 +2980,8 @@
       "transactionHash": "0xc69f85b42f9588e3e00dafb7b1edca5a65bd3b7cc8b7c31d12d12441ff556724"
     }
   },
-  "schemaVersion": "3.0.19",
-  "updatedAt": "2020-11-23T21:04:59.925Z",
+  "schemaVersion": "3.3.1",
+  "updatedAt": "2020-11-24T21:55:41.208Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
